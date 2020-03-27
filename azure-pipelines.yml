@@ -6,7 +6,9 @@
 trigger:
 - master
 
-pool: Azure Pipelines
+pool:
+  vmImage: 'Ubuntu-16.04'
+
 
 steps:
 - script: echo Hello, world!
